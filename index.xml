@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DDg&#39;s BLOG</title>
+    <link>https://duckduckgose.github.io/</link>
+    <description>Recent content on DDg&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 May 2019 15:54:47 +0800</lastBuildDate>
+    
+        <atom:link href="https://duckduckgose.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
