@@ -5,10 +5,112 @@
     <description>Recent content on DDg&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 May 2019 15:54:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 23:26:12 +0800</lastBuildDate>
     
         <atom:link href="https://duckduckgose.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>技术本身无罪，爬虫准则谨记</title>
+      <link>https://duckduckgose.github.io/post/%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%BA%AB%E6%97%A0%E7%BD%AA%E7%88%AC%E8%99%AB%E5%87%86%E5%88%99%E8%B0%A8%E8%AE%B0/</link>
+      <pubDate>Sun, 15 Sep 2019 23:26:12 +0800</pubDate>
+      
+      <guid>https://duckduckgose.github.io/post/%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%BA%AB%E6%97%A0%E7%BD%AA%E7%88%AC%E8%99%AB%E5%87%86%E5%88%99%E8%B0%A8%E8%AE%B0/</guid>
+      <description>&lt;h1 id=&#34;arts第一周-9-08-9-15&#34;&gt;ARTS第一周(9.08~9.15)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ARTS是什么？&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Algorithm&lt;/strong&gt;：每周至少做一个leetcode的算法题；&lt;br /&gt;
+&lt;strong&gt;Review&lt;/strong&gt;：阅读并点评至少一篇英文技术文章；&lt;br /&gt;
+&lt;strong&gt;Tip&lt;/strong&gt;：学习至少一个技术技巧；&lt;br /&gt;
+&lt;strong&gt;Share&lt;/strong&gt;：分享一篇有观点和思考的技术文章。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;algorithm&#34;&gt;Algorithm&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://leetcode-cn.com/problems/two-sum&#34;&gt;LeetCode1. Two sum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;题目解析&#34;&gt;题目解析&lt;/h3&gt;
+
+&lt;p&gt;给定一个整数数组nums和一个目标值target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。你可以假设每种输入只会对应一个方案。但是，你不能重复利用这个数组中同样的元素。&lt;/p&gt;
+
+&lt;h3 id=&#34;优雅方法&#34;&gt;优雅方法&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;显然，优先使用暴力美学解决，遍历数组中每个元素，然后遍历查找*target与前者元素之差*相等的目标元素。这是最直接的方法，但时间复杂度是O(n^2），空间复杂度是O(1)。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;O(n^2)的复杂度当然不符合优美的解法，因此，应该尝试以空间换时间的方法。由此联想到把元素存储到Python中列表、字典这样的数据结构，查询列表、字典中的元素与目标元素是否相等，这样就大大缩减了运行时间。另外，字典的哈希性可以对应在Java的集合中的Map，实现逻辑大致相同，更巧妙的是可以使用HashMap来代替Map。这时时间复杂度为O(n)，空间复杂度为O(n)。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;答案中更优雅更巧妙的方法是，在同一个for循环里面，使用if语句可以优雅的把空间的操作和时间的操作合并在同一个for循环里面，解决了要遍历两次哈希表的问题，代码优雅程度get。时间空间复杂度都是O(n)。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;review&#34;&gt;Review&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://link.medium.com/uU7aWc0MjV&#34;&gt;Critical soft skills for software developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这篇文章围绕着 &lt;em&gt;软技能和技术技能同样重要，甚至更重要&lt;/em&gt; 这一观点叙述。并从四个小技巧展开如何去建立自己的软技能。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;营销自己的工作。根据自己的情况制定独特的营销策略，清楚地沟通自己亲自在项目中扮演的角色，最好在一对一会议或者团队会议中；确保管理层知道自己主动完成的任何额外任务；不要成为同事中的混蛋；对于绩效考核会议，要求直接与之合作的同事进行评估；不要向管理层传达错误或者虚假的信息获得成功。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;时间管理。优先考虑自己的任务；控制拖延；准时；知道什么时候不工作。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;社交网络。了解新人的一种方法是在遇到他们的工作时接近他们。扩大圈子的另一种方法是要求介绍。如果你认识一个了解你想知道的人的人，你可以要求介绍。通过休闲活动获得企业联系。与人保持联系，以培养人际关系。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;思想开放。开放思想的一个方面是能够听取他人的意见和想法。心胸狭窄的开发人员进行讨论，目的是将他们的想法推向他人。当别人说话时，他们不听，他们只是等着轮到他们再说话。有些人这样做是因为自我，有些是因为固执，有些是因为纯粹的习惯。思想开放意味着我们能够推迟我们的意见和判断。有时候，仅仅因为我们不熟悉它而过于容易对新想法或新做事方式持怀疑态度。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+
+&lt;p&gt;在Java语言中，我们谈一谈&lt;strong&gt;int和Integer的区别&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;int&lt;/strong&gt;是我们常说的整形数字，是Java的8个原始数据类型（Primitive Types，boolean、byte 、short、char、int、foat、double、long）之一。Java语言虽然号称一切都是对象，但原始数据类型是例外。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integer&lt;/strong&gt; 是 int 对应的包装类，它有一个 int 类型的字段存储数据，并且提供了基本操作，比如数学运算、 int和字符串之间转换等。在Java 5中，引入了自动装箱和自动拆箱功能（boxing/unboxing ）， Java 可以根据上下文，自动进行转换，极大地简化了相关编程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关于 Integer 的值缓存&lt;/strong&gt;，这涉及 Java 5 中另一个改进。构建 Integer 对象的传统方式是直接调用构造器，直接 new 一个对象。但是根据实践，我们发现大部分数据操作都是集中在有 限的、较小的数值范围，因而，在Java 5中新增了静态工厂方法valueOf，在调用它的时候会利用一个缓存机制，带来了明显的性能改进。按照Javadoc， 这个值默认缓存是-128到127之间。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;share&#34;&gt;Share&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://time.geekbang.org/column/article/e261d1feed45d1025320397b5ec985d2/share?code=686ZpSv6CPwF0ZRgfc1yFIBlq2-6atOUE4boqJcvw5U%3D&amp;amp;from=singlemessage&amp;amp;isappinstalled=0&amp;amp;oss_token=7594ac1221119b22&#34;&gt;爬虫是否合法？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;现实生活中，我们经常会利用爬虫爬取一些信息方便自己，但是爬虫是否合法？这里面有一些我们意想不到的坑。因此，我们科普一些法律知识，避免自己意外掉进坑里。&lt;/p&gt;
+
+&lt;p&gt;本篇文章涉及的&lt;strong&gt;法律知识概念&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;公民个人信息&lt;/strong&gt;，指以电子或者其他方式记录，能单独或结合其他消息，识别出某人身份或者反映某人活动情况的信息，包括姓名、身份号码、各种联系方式、住址、账号密码、财产状况和行踪轨迹等。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;侵犯公民个人信息罪&lt;/strong&gt;，任何单位和个人，违反国家有关规定，获取、出售或者提供公民个人信息，情节严重的，都构成犯罪。而且罪名判定跟是否获利无关，只要你提供给了别人，不管你有没有获利，情节严重的都属于刑事犯罪。另外，如果是在履行职责或者在提供服务的过程中，获取到的个人信息，再出售或者提供给别人，更是会从重处罚。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;不正当竞争&lt;/strong&gt;，不正当竞争的定义来自于《反不正当竞争法》，指经营者违反本法规定，损害其他经营者的合法权益，扰乱社会经济秩序的行为。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是，不正当竞争的定罪对象是“经营者”，不管你是否有合法的营业执照，只要从事商品经营或者营利性服务的单位和个人，都属于这个范围。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;理清了上述的法律知识概念，跟着作者思路了解爬虫的合法性。爬虫与信息的合法性问题的关键在于究竟是怎么获取到的数据，获取数据范围是什么，以及把数据用来做什么。&lt;/p&gt;
+
+&lt;p&gt;平时在使用爬虫的时候，我们应注意如下几点&lt;strong&gt;准则&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;如果你爬取信息，严格遵守“Robots 协议”，没有任何越权的行为，搜集的也是公开可以查询的非隐私级的信息。那么，你的行为基本不会违法。&lt;/li&gt;
+&lt;li&gt;如果你爬虫获取信息，是为了证明被爬公司的数据造假，其获取的数据也都是通过公开渠道可以查询的，那么，在获取信息后公布于众的行为并不违法，也不侵犯被爬公司的民事权益。&lt;/li&gt;
+&lt;li&gt;如果你利用爬虫获取其他公司的公开信息数据，用于自身公司的经营。而被爬公司的信息是投入了大量人力、财力，经过常年积累获得的，并且被爬公司本身也采取了反爬措施。这种情况下，虽然信息是公开的，但信息本身具有较高的商业价值，能够给使用者带来商业利益，此时的爬虫也是违法的。&lt;/li&gt;
+&lt;li&gt;如果你未经平台授权，强行突破反爬措施，导致被爬网站的运行受到严重影响，这种行为明显是违法的。&lt;/li&gt;
+&lt;li&gt;如果你是第三方应用，想要通过开放平台获取用户信息时，更要注意授权问题。从用户对平台的授权、平台对第三方的授权、再到用户对第三方的授权，三重关卡都要通过才合法。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>难啃的技术知识</title>
+      <link>https://duckduckgose.github.io/post/%E9%9A%BE%E5%95%83%E7%9A%84%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Tue, 28 May 2019 23:26:12 +0800</pubDate>
+      
+      <guid>https://duckduckgose.github.io/post/%E9%9A%BE%E5%95%83%E7%9A%84%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/</guid>
+      <description>&lt;p&gt;技术原理往往需要时间来攻破。&lt;/p&gt;
+
+&lt;p&gt;知识的累积需要经过不断的沉淀。&lt;/p&gt;</description>
+    </item>
     
   </channel>
 </rss>

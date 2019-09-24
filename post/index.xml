@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DDg&#39;s BLOG</title>
+    <link>https://duckduckgose.github.io/post/</link>
+    <description>Recent content in Posts on DDg&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Sep 2019 23:26:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://duckduckgose.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>技术本身无罪，爬虫准则谨记</title>
+      <link>https://duckduckgose.github.io/post/%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%BA%AB%E6%97%A0%E7%BD%AA%E7%88%AC%E8%99%AB%E5%87%86%E5%88%99%E8%B0%A8%E8%AE%B0/</link>
+      <pubDate>Sun, 15 Sep 2019 23:26:12 +0800</pubDate>
+      
+      <guid>https://duckduckgose.github.io/post/%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%BA%AB%E6%97%A0%E7%BD%AA%E7%88%AC%E8%99%AB%E5%87%86%E5%88%99%E8%B0%A8%E8%AE%B0/</guid>
+      <description>&lt;h1 id=&#34;arts第一周-9-08-9-15&#34;&gt;ARTS第一周(9.08~9.15)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ARTS是什么？&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Algorithm&lt;/strong&gt;：每周至少做一个leetcode的算法题；&lt;br /&gt;
+&lt;strong&gt;Review&lt;/strong&gt;：阅读并点评至少一篇英文技术文章；&lt;br /&gt;
+&lt;strong&gt;Tip&lt;/strong&gt;：学习至少一个技术技巧；&lt;br /&gt;
+&lt;strong&gt;Share&lt;/strong&gt;：分享一篇有观点和思考的技术文章。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>难啃的技术知识</title>
+      <link>https://duckduckgose.github.io/post/%E9%9A%BE%E5%95%83%E7%9A%84%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Tue, 28 May 2019 23:26:12 +0800</pubDate>
+      
+      <guid>https://duckduckgose.github.io/post/%E9%9A%BE%E5%95%83%E7%9A%84%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/</guid>
+      <description>&lt;p&gt;技术原理往往需要时间来攻破。&lt;/p&gt;
+
+&lt;p&gt;知识的累积需要经过不断的沉淀。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

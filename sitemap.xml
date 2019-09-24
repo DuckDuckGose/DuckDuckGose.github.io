@@ -2,6 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://duckduckgose.github.io/tags/ARTS/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/post/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/tags/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/tags/blog/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/tags/tech/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/post/%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%BA%AB%E6%97%A0%E7%BD%AA%E7%88%AC%E8%99%AB%E5%87%86%E5%88%99%E8%B0%A8%E8%AE%B0/</loc>
+    <lastmod>2019-09-15T23:26:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://duckduckgose.github.io/post/%E9%9A%BE%E5%95%83%E7%9A%84%E6%8A%80%E6%9C%AF%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2019-05-28T23:26:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://duckduckgose.github.io/about/</loc>
     <lastmod>2019-05-24T15:54:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,18 +59,7 @@
   </url>
   
   <url>
-    <loc>https://duckduckgose.github.io/</loc>
-    <lastmod>2019-05-24T15:54:47+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://duckduckgose.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://duckduckgose.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
